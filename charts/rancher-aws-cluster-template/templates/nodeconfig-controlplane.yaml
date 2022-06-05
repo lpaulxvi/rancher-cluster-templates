@@ -5,8 +5,8 @@ metadata:
   name: {{ $clustername }}-controlplane
   namespace: fleet-default
 instanceType: t3a.medium
-region: eu-central-1
-subnetId: subnet-0984ae232db1d4391
-vpcId: vpc-0c7c6085a97724ca9
+region: us-east-1
+subnetId: subnet-066a76fbabd1d61c1
+vpcId: vpc-089af67dcf3246438
 zone: a
 sshUser: ubuntu
