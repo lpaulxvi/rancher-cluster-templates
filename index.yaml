@@ -25,6 +25,18 @@ entries:
     urls:
     - https://github.com/lpaulxvi/rancher-cluster-templates/releases/download/rancher-aws-cluster-template-0.1.0/rancher-aws-cluster-template-0.1.0.tgz
     version: 0.1.0
+  - annotations:
+      catalog.cattle.io/namespace: fleet-default
+      catalog.cattle.io/type: cluster-template
+    apiVersion: v1
+    created: "2022-06-05T21:24:47.708206082Z"
+    description: RKE2 Cluster template for AWS
+    digest: ba56ee3922c78a137fbde336f173666221cb0ae067324ca987e6132e30883cde
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png
+    name: rancher-aws-cluster-template
+    urls:
+    - https://github.com/lpaulxvi/rancher-cluster-templates/releases/download/rancher-aws-cluster-template-0.0.1/rancher-aws-cluster-template-0.0.1.tgz
+    version: 0.0.1
   rancher-do-cluster-template:
   - annotations:
       catalog.cattle.io/namespace: fleet-default
@@ -59,4 +71,4 @@ entries:
     urls:
     - https://github.com/lpaulxvin/rancher-cluster-templates/releases/download/rancher-do-cluster-template-0.1.0/rancher-do-cluster-template-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-10T15:16:55.26106162Z"
+generated: "2022-06-05T21:24:47.708220182Z"
