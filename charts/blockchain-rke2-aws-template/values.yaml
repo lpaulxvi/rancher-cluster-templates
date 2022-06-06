@@ -5,8 +5,10 @@ cluster:
   # specify cluster size
   #size: 3
   # specify cluster topology
-  #topology: us-east
-
+  az: us-east-1
+nodepool:
+  size: t3.large
+  count: 1
   # specify cluster labels
   labels: {}
 
