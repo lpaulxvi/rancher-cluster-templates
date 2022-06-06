@@ -10,3 +10,18 @@ questions:
   label: "CloudCredential Name"
   type: cloudcredential
   group: "General"
+  - variable: nodepool.size
+  label: "VM Size"
+  type: enum
+  options:
+    - t3a.medium
+    - t3a.large
+    - t3a.xlarge
+  description: "Size of each VM"
+  group: "Nodepools"
+- variable: nodepool.count
+  description: "Specify node count"
+  type: int
+  required: true
+  label: "Node count"
+  group: "Nodepools"
