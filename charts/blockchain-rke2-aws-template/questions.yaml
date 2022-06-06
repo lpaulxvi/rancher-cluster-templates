@@ -12,7 +12,7 @@ questions:
   type: string
   group: "General"
 - variable: cluster.topology
-  description: "Specify the regional deployment topology
+  description: "Specify the regional deployment topology"
   label: "Cluster Topology - Number of Regions/AZs"
   required: true
   type: string
