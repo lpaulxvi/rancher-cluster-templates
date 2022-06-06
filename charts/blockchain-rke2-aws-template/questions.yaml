@@ -10,7 +10,16 @@ questions:
   label: "CloudCredential Name"
   type: cloudcredential
   group: "General"
-  - variable: nodepool.size
+- variable: nodepool.az
+  label: "Region-AZ"
+  type: enum
+  options:
+    - us-east-1
+    - us-east-2
+    - us-west-1
+  description: "Region-AZ of VM"
+  group: "Nodepools"
+- variable: nodepool.size
   label: "VM Size"
   type: enum
   options:
