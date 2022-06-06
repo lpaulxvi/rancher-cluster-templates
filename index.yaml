@@ -22,7 +22,7 @@ entries:
     description: Blockchain on RKE2 Cluster template for AWS
     digest: ba56ee3922c78a137fbde336f173666221cb0ae067324ca987e6132e30883cde
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png
-    name: rancher-aws-cluster-template
+    name: blockchain-rke2-aws-template
     urls:
     - https://github.com/lpaulxvi/rancher-cluster-templates/releases/download/blockchain-rke2-aws-template-0.0.1/blockchain-rke2-aws-template-0.0.1.tgz
     version: 0.0.1
