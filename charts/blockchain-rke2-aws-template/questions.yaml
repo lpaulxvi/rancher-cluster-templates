@@ -5,18 +5,6 @@ questions:
   required: true
   type: string
   group: "General"
-- variable: cluster.size
-  description: "Specify the size of the cluster"
-  label: "Cluster Size - Number of Nodes"
-  required: true
-  type: string
-  group: "General"
-- variable: cluster.topology
-  description: "Specify the regional deployment topology"
-  label: "Cluster Topology - Number of Regions/AZs"
-  required: true
-  type: string
-  group: "General"
 - variable: cloudCredentialSecretName
   description: "CloudCredentialName for provisioning cluster"
   label: "CloudCredential Name"
