@@ -2,6 +2,10 @@
 cluster:
   # specify cluster name
   name: blockchain-aws-cluster
+  # specify cluster size
+  size: 3
+  # specify cluster topology
+  topology: us-east
 
   # specify cluster labels
   labels: {}
